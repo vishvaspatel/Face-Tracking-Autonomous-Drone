@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# 🚁 Real-Time Face Detection and Tracking Drone using CNN & YOLO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![YOLOv5](https://img.shields.io/badge/YOLOv5-Object%20Detection-red) ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-blue) ![Jetson Nano](https://img.shields.io/badge/Jetson%20Nano-Edge%20AI-green)
 
-## Available Scripts
+This project demonstrates a **real-time face detection and tracking system** integrated into a drone’s navigation system. It leverages **CNN-based models** and **YOLOv5** for detection, with **OpenCV** managing live video processing. The system is deployed on an **NVIDIA Jetson Nano**, optimized for efficient real-time computation.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The goal is to enable a drone to **detect, track, and follow human faces** autonomously. Preliminary testing under controlled indoor environments shows **high detection accuracy** and **smooth movement tracking**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔹 Key Highlights
 
-### `npm test`
+* ⚡ Real-time detection using **YOLOv5** and **CNN models**
+* 🧭 Integrated drone control for autonomous navigation
+* 🧠 Edge AI implementation on **Jetson Nano**
+* 🧩 Modular system for easy future integration (GPS, sensors, etc.)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📊 Project Progress
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ✅ Completed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Integration of **YOLOv5** and **CNN-based detection models**
+* Successful **real-time tracking** in indoor environments
+* Smooth tracking verified using **OpenCV**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔄 Next Steps
 
-### `npm run eject`
+* Improve model tuning for dynamic outdoor conditions
+* Add **obstacle avoidance** and **GPS-based navigation**
+* Test under **variable lighting** and **motion patterns**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧠 Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Component              | Technology Used                       |
+| ---------------------- | ------------------------------------- |
+| **Face Detection**     | YOLOv5, CNN-based models              |
+| **Video Processing**   | OpenCV                                |
+| **Hardware**           | NVIDIA Jetson Nano                    |
+| **Control System**     | DroneKit / Python Scripts             |
+| **Planned Extensions** | GPS module, LiDAR, Ultrasonic sensors |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ⚙️ Installation & Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Python 3.8+
+* NVIDIA Jetson Nano / Linux system
+* PyTorch and OpenCV
+* Drone SDK (e.g., DroneKit)
 
-### Code Splitting
+### Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/face-detection-drone.git
+cd face-detection-drone
 
-### Analyzing the Bundle Size
+# Install dependencies
+pip install -r requirements.txt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Run main script
+python main.py
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎥 Demo
 
-### Advanced Configuration
+> Add drone test videos or demo GIFs here (e.g., YouTube link)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🚧 Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* 🔁 Multi-face tracking support
+* 🛰️ GPS-based autonomous flight
+* 🚧 Real-time obstacle avoidance
+* 🌗 Low-light condition optimization
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👨‍💻 Contributors
+
+* **Vishvas Patel** – Project Lead & Developer
+
+💡 Contributions are welcome! Feel free to open issues or submit pull requests.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🌐 Contact
+
+📧 Email: **[vishvaskumar.patel@example.com](mailto:vishvaskumar.patel@example.com)**
+🔗 LinkedIn: [Vishvas Patel](https://linkedin.com/in/vishvaspatel)
+
+---
+
+## 📝 GitHub Description
+
+A drone-based real-time **face detection and tracking system** using **CNN and YOLOv5** integrated with **OpenCV** on **NVIDIA Jetson Nano**. Designed for smooth, accurate tracking with upcoming support for **GPS navigation** and **obstacle avoidance**.
