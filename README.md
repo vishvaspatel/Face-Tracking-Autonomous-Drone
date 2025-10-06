@@ -10,6 +10,10 @@ This project demonstrates a **real-time face detection and tracking system** int
 
 The goal is to enable a drone to **detect, track, and follow human faces** autonomously. Preliminary testing under controlled indoor environments shows **high detection accuracy** and **smooth movement tracking**.
 
+## 🎥 Demo
+![WhatsApp Image 2025-10-06 at 1 09 04 AM](https://github.com/user-attachments/assets/58b6c6b6-a60b-4774-b7f9-496e80a6e874)
+---
+
 ### 🔹 Key Highlights
 
 * ⚡ Real-time detection using **YOLOv5** and **CNN models**
@@ -55,12 +59,6 @@ The goal is to enable a drone to **detect, track, and follow human faces** auton
 * NVIDIA Jetson Nano / Linux system
 * PyTorch and OpenCV
 * Drone SDK (e.g., DroneKit)
-
-
-## 🎥 Demo
-![WhatsApp Image 2025-10-06 at 1 09 04 AM](https://github.com/user-attachments/assets/58b6c6b6-a60b-4774-b7f9-496e80a6e874)
-![WhatsApp Image 2025-10-06 at 1 09 04 AM (1)](https://github.com/user-attachments/assets/6a7f4ff4-d4ce-4f82-9a69-28d05d972697)
----
 
 ## 🚧 Future Enhancements
 
