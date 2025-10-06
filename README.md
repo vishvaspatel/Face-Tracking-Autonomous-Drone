@@ -71,7 +71,7 @@ The goal is to enable a drone to **detect, track, and follow human faces** auton
 
 ## 🌐 Contact
 
-📧 Email: **[vishvaskumar.patel@example.com](vkpatel7853@gmail.com)**
+📧 Email: **[vkpatel7853@gmail.com](vkpatel7853@gmail.com)**
 🔗 LinkedIn: [Vishvas Patel](https://www.linkedin.com/in/vishvas-patel-6a706b21a/)
 
 ---
