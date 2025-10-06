@@ -31,11 +31,11 @@ The goal is to enable a drone to **detect, track, and follow human faces** auton
 * Successful **real-time tracking** in indoor environments
 * Smooth tracking verified using **OpenCV**
 
-### 🔄 Next Steps
+### 🚧 Future Enhancements
 
-* Improve model tuning for dynamic outdoor conditions
-* Add **obstacle avoidance** and **GPS-based navigation**
-* Test under **variable lighting** and **motion patterns**
+* 🛰️ GPS-based autonomous flight
+* 🚧 Real-time obstacle avoidance
+* 🌗 Low-light condition optimization
 
 ---
 
@@ -59,13 +59,6 @@ The goal is to enable a drone to **detect, track, and follow human faces** auton
 * NVIDIA Jetson Nano / Linux system
 * PyTorch and OpenCV
 * Drone SDK (e.g., DroneKit)
-
-## 🚧 Future Enhancements
-
-* 🔁 Multi-face tracking support
-* 🛰️ GPS-based autonomous flight
-* 🚧 Real-time obstacle avoidance
-* 🌗 Low-light condition optimization
 
 ---
 
