@@ -73,8 +73,11 @@ python main.py
 ---
 
 ## 🎥 Demo
+![WhatsApp Image 2025-10-06 at 1 09 04 AM](https://github.com/user-attachments/assets/58b6c6b6-a60b-4774-b7f9-496e80a6e874)
+![WhatsApp Image 2025-10-06 at 1 09 04 AM (1)](https://github.com/user-attachments/assets/6a7f4ff4-d4ce-4f82-9a69-28d05d972697)
 
-> Add drone test videos or demo GIFs here (e.g., YouTube link)
+
+https://github.com/user-attachments/assets/9b464cfb-fe53-43a5-b307-9e654913c076
 
 ---
 
@@ -87,27 +90,9 @@ python main.py
 
 ---
 
-## 👨‍💻 Contributors
-
-* **Vishvas Patel** – Project Lead & Developer
-
-💡 Contributions are welcome! Feel free to open issues or submit pull requests.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🌐 Contact
 
-📧 Email: **[vishvaskumar.patel@example.com](mailto:vishvaskumar.patel@example.com)**
-🔗 LinkedIn: [Vishvas Patel](https://linkedin.com/in/vishvaspatel)
+📧 Email: **[vishvaskumar.patel@example.com](vkpatel7853@gmail.com)**
+🔗 LinkedIn: [Vishvas Patel](https://www.linkedin.com/in/vishvas-patel-6a706b21a/)
 
 ---
-
-## 📝 GitHub Description
-
-A drone-based real-time **face detection and tracking system** using **CNN and YOLOv5** integrated with **OpenCV** on **NVIDIA Jetson Nano**. Designed for smooth, accurate tracking with upcoming support for **GPS navigation** and **obstacle avoidance**.
