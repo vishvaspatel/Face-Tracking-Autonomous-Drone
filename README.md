@@ -56,29 +56,10 @@ The goal is to enable a drone to **detect, track, and follow human faces** auton
 * PyTorch and OpenCV
 * Drone SDK (e.g., DroneKit)
 
-### Steps
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/face-detection-drone.git
-cd face-detection-drone
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run main script
-python main.py
-```
-
----
 
 ## 🎥 Demo
 ![WhatsApp Image 2025-10-06 at 1 09 04 AM](https://github.com/user-attachments/assets/58b6c6b6-a60b-4774-b7f9-496e80a6e874)
 ![WhatsApp Image 2025-10-06 at 1 09 04 AM (1)](https://github.com/user-attachments/assets/6a7f4ff4-d4ce-4f82-9a69-28d05d972697)
-
-
-https://github.com/user-attachments/assets/9b464cfb-fe53-43a5-b307-9e654913c076
-
 ---
 
 ## 🚧 Future Enhancements
