@@ -46,7 +46,7 @@ The goal is to enable a drone to **detect, track, and follow human faces** auton
 | **Face Detection**     | YOLOv5, CNN-based models              |
 | **Video Processing**   | OpenCV                                |
 | **Hardware**           | NVIDIA Jetson Nano                    |
-| **Control System**     | orange cube flight controll           |
+| **Control System**     | Orangecube flight controller          |
 | **Planned Extensions** | GPS module, LiDAR, Ultrasonic sensors |
 
 ---
