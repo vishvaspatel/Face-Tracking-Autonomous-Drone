@@ -58,7 +58,6 @@ The goal is to enable a drone to **detect, track, and follow human faces** auton
 * Python 3.8+
 * NVIDIA Jetson Nano / Linux system
 * PyTorch and OpenCV
-* Drone SDK (e.g., DroneKit)
 
 ---
 
